@@ -1,0 +1,72 @@
+body {
+  background-color: #EEF1D5;
+}
+body .smo-jumbo {
+  background-color: orange;
+}
+body .smo-jumbo .jumbo-title {
+  text-align: center;
+}
+body .smo-jumbo .jumbo-title .jumbo-sub-title {
+  color: #A76C00;
+}
+smo-search .search-input-control {
+  margin-top: 100px;
+}
+smo-search .movie-list {
+  position: absolute;
+  background-color: white;
+  width: 254px;
+}
+smo-search .movie-list .movie-item {
+  position: relative;
+  border-bottom: 1px solid #F7F7F7;
+  padding: 7px;
+  cursor: pointer;
+  -webkit-transition: ease-in-out 100ms 0ms;
+  -moz-transition: ease-in-out 100ms 0ms;
+  -ms-transition: ease-in-out 100ms 0ms;
+  -o-transition: ease-in-out 100ms 0ms;
+  transition: ease-in-out 100ms 0ms;
+}
+smo-search .movie-list .movie-item:hover {
+  background-color: darkgray;
+}
+smo-search .movie-list .movie-item:hover .movie-title-year {
+  color: white;
+}
+smo-search .movie-list .movie-item:hover .movie-title-year a {
+  color: white;
+}
+smo-search .movie-list .movie-item img {
+  width: 36px;
+  height: 36px;
+  border-radius: 3px;
+}
+smo-search .movie-list .movie-item .movie-title-year {
+  width: 190px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 12px;
+  position: absolute;
+  top: 11px;
+  left: 54px;
+  color: #6D6D6D;
+}
+smo-search .movie-list .movie-item .movie-title-year a {
+  text-decoration: none;
+  color: #6D6D6D;
+}
+smo-search .movie-list .movie-item .movie-description {
+  display: inline-block;
+  width: 190px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  position: absolute;
+  top: 27px;
+  left: 54px;
+  font-size: 12px;
+  color: #B9B9B9;
+}

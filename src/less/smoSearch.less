@@ -1,0 +1,72 @@
+smo-search {
+  .search-input-control {
+    margin-top: 100px;
+  }
+
+  .movie-list {
+    position: absolute;
+    background-color: white;
+    width: 254px;
+
+    .movie-item {
+      position: relative;
+      border-bottom: 1px solid #F7F7F7;
+      padding: 7px;
+      cursor: pointer;
+
+      -webkit-transition: ease-in-out 100ms 0ms;
+      -moz-transition: ease-in-out 100ms 0ms;
+      -ms-transition: ease-in-out 100ms 0ms;
+      -o-transition: ease-in-out 100ms 0ms;
+      transition: ease-in-out 100ms 0ms;
+
+      &:hover {
+        background-color: darkgray;
+
+        .movie-title-year {
+          color: white;
+
+          a {
+            color: white;
+          }
+        }
+      }
+
+      img {
+        width: 36px;
+        height: 36px;
+        border-radius: 3px;
+      }
+
+      .movie-title-year {
+        width: 190px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 12px;
+        position: absolute;
+        top: 11px;
+        left: 54px;
+        color: @movie-title-year-color;
+
+        a {
+          text-decoration: none;
+          color: @movie-title-year-color;
+        }
+      }
+
+      .movie-description {
+        display: inline-block;
+        width: 190px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        position: absolute;
+        top: 27px;
+        left: 54px;
+        font-size: 12px;
+        color: @movie-description-color;
+      }
+    }
+  }
+}

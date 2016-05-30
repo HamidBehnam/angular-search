@@ -1,0 +1,13 @@
+<input type="text" placeholder="Search Here!" class="form-control search-input-control" />
+<ul class="list-unstyled movie-list">
+    <li class="movie-item" ng-repeat="movie in smoSearchController.movies">
+        <div>
+            <span ng-bind-html="movie['image_code']"></span>
+            <span class="movie-title-year">
+                <span ng-bind-html="movie['link_code']"></span>
+                <span ng-bind="smoSearchController.wrapYear(movie.year)"></span>
+            </span>
+            <span ng-bind="movie.description" class="movie-description"></span>
+        </div>
+    </li>
+</ul>

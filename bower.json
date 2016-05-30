@@ -1,0 +1,12 @@
+{
+  "name": "slated-movies",
+  "description": "",
+  "main": "index.js",
+  "license": "ISC",
+  "homepage": "",
+  "dependencies": {
+    "angular": "1.4",
+    "jquery": "^2.2.4",
+    "bootstrap": "^3.3.6"
+  }
+}
