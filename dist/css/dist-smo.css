@@ -10,6 +10,10 @@ body .smo-jumbo .jumbo-title {
 body .smo-jumbo .jumbo-title .jumbo-sub-title {
   color: #A76C00;
 }
+body .smo-jumbo .jumbo-title .jumbo-sub-title a {
+  color: #7D5100;
+  text-decoration: none;
+}
 smo-search .search-input-control {
   margin-top: 100px;
 }
@@ -36,6 +40,9 @@ smo-search .movie-list .movie-item:hover .movie-title-year {
   color: white;
 }
 smo-search .movie-list .movie-item:hover .movie-title-year a {
+  color: white;
+}
+smo-search .movie-list .movie-item:hover .movie-description {
   color: white;
 }
 smo-search .movie-list .movie-item img {
